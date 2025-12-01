@@ -9,6 +9,6 @@ uint8_t sum(uint8_t *array, int length);
 
 bool calc_checksum(uint8_t *array, int length);
 
-void from_int32_to_bytes(int32_t data, uint8_t *splited_data);
+void from_int32_to_bytes(int32_t data, uint8_t *split_data);
 
 #endif

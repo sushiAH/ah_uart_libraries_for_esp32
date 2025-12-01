@@ -23,6 +23,7 @@ void init_uart(motor_controller* p) {
 }
 
 /**
+
  * @brief 受け取ったデータを,table_addrに応じて、共有変数に書き込む
  *
  * @param p
