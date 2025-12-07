@@ -13,11 +13,11 @@
 #include "freertos/task.h"
 #include "utils.h"
 
-void init_uart(motor_controller* p) {
+void init_uart(motor_controller* ctrl) {
   xTaskCreate(uart_rx_task,  // タスク関数
               "uart_rx",     // タスク名
               4096,          // スタックサイズ
-              (void*)p,      // タスクに渡す引数
+              (void*)ctrl,   // タスクに渡す引数
               2,             // 優先度
               NULL);         // タスクハンドル
 }

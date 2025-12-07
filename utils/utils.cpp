@@ -41,7 +41,7 @@ bool calc_checksum(uint8_t* array, int length) {
 }
 
 /**
- * @brief int32を4つのバイト列に変換
+ * @brief int32をリトルエンディアンで4つのバイト列に変換
  *
  * @param data
  * @param split_data
